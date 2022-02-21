@@ -1,0 +1,24 @@
+<div>
+  <nav class="navbar navbar-expand-sm bg-success navbar-dark">
+    <ul class="navbar-nav" style="text-align: center">
+      <li class="nav-item active">
+        <a class="navbar-brand" style="text-align: left; margin-left: 15px" href="#">Bank</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/users" routerLinkActive="active">Users</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/accounts" routerLinkActive="active">Accounts</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/categories" routerLinkActive="active">Categories</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/transactions" routerLinkActive="active">Transactions</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</div>
